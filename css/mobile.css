@@ -1,0 +1,135 @@
+body {
+  max-width: 375px;
+  line-height: 1;
+}
+.showcase {
+  display: flex;
+  flex-direction: row;
+  margin: -7rem 0.2rem;
+  overflow: hidden;
+}
+.showcase .container {
+  display: flex;
+  flex-direction: column;
+   margin: 60px auto;
+  /* flex: none; */
+}
+
+.showcase .showcase-content {
+  max-width: 375px;
+}
+
+.showcase .showcase-content::before {
+  content: '';
+  background: url('../images/bg-pattern-top-desktop.svg') no-repeat;
+  position: absolute;
+  top: -150px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+}
+
+.showcase .showcase-content::after {
+  content: '';
+  background: url('../images/bg-pattern-bottom-desktop.svg') no-repeat;
+  position: absolute;
+  top: 700px;
+  left: 2px;
+  right: 43rem;
+  width: 100%;
+  height: 100%;
+}
+
+.showcase .container .header {
+  display: block;
+  margin: 1rem;
+  padding: 1rem 1rem;
+  flex: none;
+}
+
+.showcase .container .header h3 {
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: -10px;
+  padding: rem;
+} 
+
+.showcase .container .header p {
+  font-size: 1rem;
+  line-height: 1.7;
+  
+}
+
+.showcase .container .icon {
+  display: block;
+  margin: 0.5rem 1rem;
+  margin-left: rem;
+  
+}
+.showcase .container .images-1 {
+  display: inline-block;
+  margin: .5rem 5rem;
+  width: 300px;
+  border-radius: 0.75rem; 
+}
+.showcase .container .images-2 {
+  display: inline-block;
+  width: 300px;
+  margin: 0.5rem 5rem;
+  border-radius: 0.75rem; 
+}
+.showcase .container .images-3 {
+  display: inline-block;
+  width: 300px;
+  margin: .5rem 5rem;
+  border-radius: 0.75rem; 
+}
+
+.icon .text p {
+  margin-top: -5px;
+}
+
+.showcase .container .icons img:first-child {
+  /* margin-left: .5re; */
+  /* align-items: center; */
+}
+
+.card {
+  display: block;
+}
+
+.card-content .card-1 {
+  background: hsl(300, 43%, 22%);
+  padding: 2rem 0.85rem;
+  color:hsl(300, 24%, 96%);
+  border-radius: 10px;
+  height: 160px;
+  margin: 0.95rem 3rem;
+} 
+.card-content .card-2 {
+  background: hsl(300, 43%, 22%);
+  padding: 2rem 0.85rem;
+  color:hsl(300, 24%, 96%);
+  border-radius: 10px;
+  height: 160px;
+  margin: 0.95rem 3rem;
+} 
+.card-content .card-3 {
+  background: hsl(300, 43%, 22%);
+  padding: 2rem 0.85rem;
+  color:hsl(300, 24%, 96%);
+  border-radius: 10px;
+  height: 160px;
+  margin: 0.95rem 3rem;
+} 
+
+.card-content .card-1 div   {
+  display: inline;
+  float: left;
+  margin-top: 0.7rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+  width: 2.5rem;
+}
